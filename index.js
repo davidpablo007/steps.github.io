@@ -130,7 +130,7 @@ function showAddon(ad, val) {
     const temp = document.getElementsByTagName("template")[0];
     const clone = temp.content.cloneNode(true);
     const serviceName = clone.querySelector(".service-name");
-    const servicePrice = clone.querySelector(".servic-price");
+    const servicePrice = clone.querySelector(".service-price");
     const serviceID = clone.querySelector(".selected-addon");
     if (ad && val) {
         serviceName.innerText = ad.querySelector("label").innerText;
